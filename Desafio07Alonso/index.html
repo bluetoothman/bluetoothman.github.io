@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/estilos.css" />
+  <title>Picmicros - Tienda de electronica</title>
+</head>
+
+<body>
+  <!-- SeccionEncabezado -->
+  <header class="flex-container">
+    <div style="flex: 0 0 200px">
+      <!-- grow,shrink=0; basis=200px -->
+      <img src="../recursos/icons/picmicros.png" height="100px" alt="mainlogo" />
+    </div>
+
+    <div>
+      <form action="" id="buscarbox">
+        <input type="search" name="ProductName" placeholder="Que deseas buscar?" />
+        <input type="image" src="../recursos/icons/search.svg" height="20px" />
+      </form>
+    </div>
+    <div id="contactbox">
+      <h3>Contáctenos:</h3>
+      <ul>
+        <li>
+          <a href=""><img src="../recursos/icons/whatsappBN.svg" height="25px" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="../recursos/icons/facebookBN.svg" height="25px" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="../recursos/icons/instagramBN.svg" height="25px" alt="" /></a>
+        </li>
+      </ul>
+    </div>P
+  </header>
+  <!-- FinSeccionEncabezado -->
+  <hr />
+
+  <!-- tituloPrincipal -->
+  <div id="titulo"></div>
+  <hr />
+
+  <section class="container">
+    <div class="row" id="contenedor-productos">
+      <!-- donde se agregaran los productos mediante DOM -->
+    </div>
+  </section>
+
+  <footer class="flex-container">
+    <!-- SeccPiePag -->
+    <div>
+      <p>Tienes preguntas? ... Llámanos</p>
+      <address>
+        +57 318 855 3209<br />
+        picmicros@gmail.com
+      </address>
+    </div>
+
+    <div>
+      Calle 38A Sur # 82A - 43 <br />
+      Bogotá - Colombia
+    </div>
+
+    <div>
+      <p>
+        <i><b>Recibimos pagos electrónicos:</b></i>
+      </p>
+      <ul>
+        <li>
+          <img src="../recursos/icons/bancolombia.png" alt="" width="120px" />
+        </li>
+        <li>
+          <img src="../recursos/icons/nequi.png" alt="" width="120px" />
+        </li>
+        <li>
+          <img src="../recursos/icons/daviplata.png" alt="" width="120px" />
+        </li>
+      </ul>
+    </div>
+    <!-- FinSeccPiePag -->
+  </footer>
+  <script src="./js/stock.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
